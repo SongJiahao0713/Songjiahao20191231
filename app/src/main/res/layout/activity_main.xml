@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@android:color/holo_green_dark">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="八 维 学 生 推 荐 排 行 榜"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"></TextView>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/tvv"
+        android:text="点击这里分享给朋友"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"></TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
